@@ -1,0 +1,51 @@
+{
+  "name": "react-three-fiber-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.jsx",
+  "devDependencies": {
+    "@react-three/fiber": "^8.16.0",
+    "r3f-pack": "latest",
+    "react": "18.2.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "18.2.0",
+    "three": "^0.162.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.105.4",
+    "babel-plugin-glsl": "^1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "gl-noise": "^1.6.1",
+    "libgif": "^0.0.3",
+    "path-browserify": "^1.0.1",
+    "q": "^1.5.1",
+    "read-package-up": "^11.0.0",
+    "THREE": "npm:three@^0.162.0",
+    "three-custom-shader-material": "^5.4.0",
+    "three-plain-animator": "^1.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+
+  }
+}
